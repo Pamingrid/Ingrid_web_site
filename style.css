@@ -30,8 +30,8 @@ body {
     color: #f9f8ff;
   }
   
-  .entete,
-  .pied-de-page {
+  header,
+  footer {
     background-color: white;
   }
   
