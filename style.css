@@ -71,3 +71,9 @@ body {
     border-bottom: 1px solid #8e86b5;
     padding: 50px;
   }
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  flex-direction: row;
+}
