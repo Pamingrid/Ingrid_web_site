@@ -58,6 +58,7 @@ body {
   }
   
   .cta:hover {
+    padding: auto;
     background: linear-gradient(#696484, #8788ba);
     text-decoration: none;
   }
@@ -71,13 +72,33 @@ body {
     border-bottom: 1px solid #8e86b5;
     padding: 50px;
   }
-.menu{
+
+nav,
+footer{
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items:center;
   flex-direction: row;
+}
+nav a {
+  margin-left: 30px;
 }
 .logo{
   display: flex;
   align-items: flex-start;
+}
+
+.dernier_projet h2{
+  background-color: white;
+  padding:80px;
+  color : #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+  .dernier_projet div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
