@@ -88,17 +88,51 @@ nav a {
   align-items: flex-start;
 }
 
-.dernier_projet h2{
+.dernier_projet {
   background-color: white;
+}
+.dernier_projet h2{
   padding:80px;
   color : #242424;
   text-align: center;
   margin-bottom: 80px;
 }
+.dernier_projet div{
+  background-color: white;
+  
+}
   .dernier_projet div{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     margin-bottom: 20px;
+}
+.portfolio-section-photos{
+  background-color: white;
+}
+.portfolio-section-photos h2{
+  color: #242424;
+  margin-bottom: 80px;
+}
+
+.grid_paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px
+  
+}
+.grid_portraits{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px
+}
+.grid_paysages img,
+.grid_portraits img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
