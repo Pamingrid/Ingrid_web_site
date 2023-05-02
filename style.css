@@ -25,6 +25,7 @@ body {
   }
   
   h2 {
+    text-align: center;
     color: #f9f8ff;
     padding: 1.5em;
   }
@@ -138,40 +139,28 @@ nav a {
   object-fit: cover;
 }
 table {
-position: relative;
-border:relative;
-color: 1px solid #A5B4FC;
+  margin-top: 40px;
+  padding-left: 40px;
+  font-family: 'Montserrat';
+  Position: center;
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
 }
-thead{
-position: relative;
-width: 240px;
-height: 24px;
-left: 200px;
-top: 405px;
-
-font-family: 'Montserrat';
+th{
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 24px;
-
-color: #A5B4FC;
-
+color: #a5b4fc;
 }
-tbody{
-  position: relative;
-width: 240px;
-height: 96px;
-left: 200px;
-top: 450px;
+td,
+th {
+  padding: 15px;
+  border: 1px solid #a5b4fc;
+}
 
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-
-/* or 171% */
-
-color: #F9F8FF;
+td,
+tr {
+  padding: 80px;
 }
