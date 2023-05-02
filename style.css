@@ -48,6 +48,7 @@ body {
   }
   
   .cta {
+    display: inline-block;
     background: linear-gradient(#8e86b5, #acaeed);
     color: white;
     border-radius: 50px;
@@ -135,4 +136,42 @@ nav a {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+table {
+position: relative;
+border:relative;
+color: 1px solid #A5B4FC;
+}
+thead{
+position: relative;
+width: 240px;
+height: 24px;
+left: 200px;
+top: 405px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #A5B4FC;
+
+}
+tbody{
+  position: relative;
+width: 240px;
+height: 96px;
+left: 200px;
+top: 450px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+
+color: #F9F8FF;
 }
