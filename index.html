@@ -45,11 +45,14 @@
    <div><a href="" class="portfolio">VOIR MON PORTFOLIO</a></div> 
 <h2>Parlons de votre projet</h2>
 <section>
-    <form>
-        <input type="text" name="NOM">
-        <input type="email" email=" Email">
-        <input type="text" message=" text">>
+    <form method="get" action="">
+        <p>
+        <label for="name"> Votre nom</label>:<input type="text" name="nom" id="nom" placeholder="Ex.:Mathieu" size="50" maxlength="255">
+        <label for="email">Votre adresse email</label>:<input type="email" email=" email" id="email" placeholder="Ex. : xxxx@xxx.xx">
+        <label for="message">Votre message</label><br>
+        <textarea name="message" id= "message"></textarea>
         <input type="action" action="envoyer">
+        </p>
     </form>
 </section>
 <h1>Tarifs</h1>
