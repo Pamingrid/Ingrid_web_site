@@ -49,6 +49,7 @@ body {
   }
   
   .cta {
+    margin-top: 40px;
     display: inline-block;
     background: linear-gradient(#8e86b5, #acaeed);
     color: white;
@@ -140,6 +141,9 @@ nav a {
 }
 table {
   margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
   padding-left: 40px;
   font-family: 'Montserrat';
   Position: center;
