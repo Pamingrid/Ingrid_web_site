@@ -40,6 +40,7 @@ body {
     font-size: 1.1em;
     color: #f9f8ff;
     text-align: justify;
+    padding: 15px;
   }
   
   header,
@@ -63,7 +64,7 @@ body {
   .cta:hover {
     padding: auto;
     background: linear-gradient(#696484, #8788ba);
-    text-decoration: none;
+    text-decoration:double ;
   }
   
   .lien-icone:hover {
@@ -168,3 +169,4 @@ td,
 tr {
   padding: 80px;
 }
+
